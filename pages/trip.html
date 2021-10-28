@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agência de Turismo</title>
+    <title>FDGMS TURISMO</title>
     <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/style-trip.css">
 </head>
 
 <body>
-    <header class="header">[Header] Agência de Turismo</header>
-    <nav class="navbar">[Nav] Links</nav>
+    <header class="header">FDGMS TURISMO</header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="../pages/about.html">SOBRE NÓS</a></li>
+            <li><a href="../pages/trip.html">FAÇA SUA VIAGEM</a></li>
+            <li><a href="../pages/contact.html">CONTATO</a></li>
+        </ul>
+    </nav>
     <main>
         <form action="">
             <!-- TODO: "form action" vai ser um .jszinho pra salvar as coisas no local/session storage para preencher na página de contato ao final da escolha do destino -->
@@ -45,7 +55,50 @@
             <input type="submit" value="Submit">
         </form>
     </main>
-    <footer class="footer">Footer</footer>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>FDGMS <span>TURISMO</span></h3>
+
+            <p class="footer-links">
+                <a href="../index.html">Inicio</a> |
+                <a href="../pages/about.html">Sobre nós</a> |
+                <a href="../pages/trip.html">Faça sua viagem</a> |
+                <a href="../pages/contact.html">Contato</a>
+            </p>
+
+            <p class="footer-company-name">© 2021 FDGMS Turismo Ltda.</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Avenida Brasil, 22</span></p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+55 4002-8922</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@fdgms.com">support@fdgms.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Sobre nós</span>
+                Somos uma startup de viagens que trabalha para realizar sonhos!
+            </p>
+            <div class="footer-icons">
+                <a href="https://pt-br.facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="https://br.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
