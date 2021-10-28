@@ -1,0 +1,36 @@
+.header {
+    background-color: blue;
+}
+
+.navbar {
+    height: 75px;
+    background-color: aqua;
+}
+
+.footer {
+    background-color: gray;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.trip-button {
+    width: 10%;
+    min-height: 70px;
+    min-width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
