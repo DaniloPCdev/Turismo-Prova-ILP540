@@ -40,9 +40,9 @@
 } 
 
 .div-video {
-    padding-left: 33%;
-    margin-top: 3%;
+    display: flex;
     background-color: #FFFFFF;
+    justify-content: center;
 }
 
 .table-filiais {
