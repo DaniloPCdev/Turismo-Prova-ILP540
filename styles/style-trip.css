@@ -5,11 +5,11 @@
 }
 
 .form-odd {
-    background-color: #5f4469;
+    background-color: transparent;
 }
 
 .form-even {
-    background-color: #b08fdb;
+    background-color: #1FA0E9;
 }
 
 .button-group {

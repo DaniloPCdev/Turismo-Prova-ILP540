@@ -73,3 +73,8 @@
 td {
     padding: 10px;
 }
+
+.spacer {
+    height: 50px;
+    width: 100%;
+}
