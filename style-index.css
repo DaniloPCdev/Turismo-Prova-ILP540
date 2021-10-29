@@ -24,6 +24,29 @@
 	margin-right: 2%; 
 }
 
+.lista {
+    margin-left: 3%;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.lista-u {
+    margin-left: 3%;
+}
+
+.lista-o {
+    margin-left: 3%;
+    font-size: 1.2rem;
+}
+
+.item-u {
+    font-weight: 500 !important;
+}
+
+.item-o {
+    font-weight: 300;
+}
+
 .spacer {
     height: 50px;
     width: 100%;
