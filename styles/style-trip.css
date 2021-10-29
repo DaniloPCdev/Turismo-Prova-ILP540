@@ -13,11 +13,11 @@
 }
 
 .trip-button {
-    width: 10%;
+    width: 15%;
     min-height: 70px;
     min-width: 100px;
     margin: 5px;
     padding: 5px;
-    border-radius: 8px;
+    border-radius: 20px;
     font-size: 1.1rem;
 }
